@@ -1,3 +1,16 @@
+nhsbuntu-default-settings (0.1.2) UNRELEASED; urgency=low
+
+  * Added nhsbuntu wallpaper.
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun 26 Feb 01:33:21 GMT 2017
+
+ nhsbuntu-default-settings (0.1.1) UNRELEASED; urgency=low
+
+  * Added nhsbuntu wallpaper.
+  * Added nhsmail icon.
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun 26 Feb 01:00:21 GMT 2017
+
 nhsbuntu-default-settings (0.1) UNRELEASED; urgency=low
 
   * Initial release.
