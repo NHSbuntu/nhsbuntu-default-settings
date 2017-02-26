@@ -13,4 +13,4 @@ before_install:
 
 script:
 - dpkg-buildpackage
-#- sudo ubuntu-defaults-image --package ../nhsbuntu-default-settings_0.1.2_all.deb --keep-apt --release xenial --flavor ubuntu-gnome
+- sudo ubuntu-defaults-image --package ../nhsbuntu-default-settings_0.1.2_all.deb --keep-apt --release xenial --flavor ubuntu-gnome
