@@ -1,0 +1,11 @@
+sudo: required
+language: generic
+
+before_install:
+- sudo apt-get update -qq
+- sudo apt-get install -qq live-build
+- sudo apt-get install -qq ubuntu-defaults-builder
+- sudo apt-get install -qq syslinux-utils
+- sudo apt-get install -qq genisoimage
+- sudo apt-get install -qq memtest86+ syslinux syslinux-themes-ubuntu-xenial gfxboot-theme-ubuntu
+- sudo apt-get install -qq livecd-rootfs
