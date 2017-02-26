@@ -1,11 +1,15 @@
 sudo: required
 language: generic
 
+services:
+  - docker
+
 before_install:
+- docker pull ubuntu/xenial
 - sudo apt-get update -qq
 - sudo apt-get install -qq live-build
 - sudo apt-get install -qq ubuntu-defaults-builder
-- sudo apt-get install -qq syslinux-utils
+- sudo apt-get install -qq syslinux syslinux-common
 - sudo apt-get install -qq genisoimage
-- sudo apt-get install -qq memtest86+ syslinux syslinux-themes-ubuntu-xenial gfxboot-theme-ubuntu
+- sudo apt-get install -qq memtest86+ syslinux-themes-ubuntu-xenial gfxboot-theme-ubuntu
 - sudo apt-get install -qq livecd-rootfs
