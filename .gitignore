@@ -1,11 +1,7 @@
 # For dpkg-buildpackage output
-*.changes
-*.dsc
-*.tar.gz
-*.deb
-*/debian/files
-*/debian/stamp-makefile-build
-*/debian/*.debhelper
-*/debian/*.log
-*/debian/*.substvars
-*/debian/nhsbuntu-default-settings
+/debian/files
+/debian/debhelper-build-stamp
+/debian/*.debhelper
+/debian/*.log
+/debian/*.substvars
+/debian/nhsbuntu-default-settings

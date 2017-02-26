@@ -4,5 +4,5 @@ Name=NHS Mail
 Comment=https://portal.nhs.net/
 Exec=/usr/bin/xdg-open https://portal.nhs.net/
 Type=Application
-Icon=applications-mail
+Icon=/usr/share/icons/hicolor/scalable/apps/nhsbuntu-nhsmail.svg
 Categories=GNOME;GTK;Application;
