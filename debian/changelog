@@ -1,4 +1,10 @@
-nhsbuntu-default-settings (0.1.6) UNRELEASED; urgency=low
+nhsbuntu-default-settings (0.1.7) UNRELEASED; urgency=low
+
+  * Set dconf 00-extensions
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 21:33:21 +0000
+
+ nhsbuntu-default-settings (0.1.6) UNRELEASED; urgency=low
 
   * Forked gnomeshell-extension-manage
 
