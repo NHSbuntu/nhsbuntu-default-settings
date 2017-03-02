@@ -1,3 +1,15 @@
+nhsbuntu-default-settings (0.1.6) UNRELEASED; urgency=low
+
+  * Forked gnomeshell-extension-manage
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 18:33:21 +0000
+
+nhsbuntu-default-settings (0.1.5) UNRELEASED; urgency=low
+
+  * Added nhsbuntu-default-settings.gsettings-override
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 18:33:21 +0000
+
 nhsbuntu-default-settings (0.1.4) UNRELEASED; urgency=low
 
   * Added chroot hooks to remove packages

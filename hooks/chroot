@@ -9,9 +9,8 @@ set -e
 
 apt-get remove -y --purge transmission-common
 apt-get remove -y --purge --auto-remove gnome-getting-started-docs
-wget -O /usr/local/bin/gnomeshell-extension-manage "https://raw.githubusercontent.com/NicolasBernaerts/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage"
+wget -O /usr/local/bin/gnomeshell-extension-manage "https://raw.githubusercontent.com/robdyke/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage"
 chmod +x /usr/local/bin/gnomeshell-extension-manage
 gnomeshell-extension-manage --install --extension-id 1160 --system
 gnome-shell-extension-tool -e dash-to-panel
-wget https://gist.githubusercontent.com/robdyke/a5e028956e7b0d952cd565bd43d741d7/raw/0064a07f070a6e9e60a1d6a5598838f68725b1a8/dash-to-panel.conf
-dconf load /org/gnome/shell/extensions/ < dash-to-panel.conf
+#wget https://gist.githubusercontent.com/robdyke/a5e028956e7b0d952cd565bd43d741d7/raw/0064a07f070a6e9e60a1d6a5598838f68725b1a8/dash-to-panel.conf

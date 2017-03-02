@@ -1,0 +1,7 @@
+[dash-to-panel]
+panel-position='BOTTOM'
+show-appmenu=false
+animate-show-apps=false
+panel-size=32
+show-activities-button=false
+show-show-apps-button=false
