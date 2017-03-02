@@ -6,3 +6,10 @@ set -e
 # This script is run in the built chroot after all packages are installed,
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
+
+apt-get remove -y --purge transmission-common
+apt-get remove -y --purge --auto-remove gnome-getting-started-docs
+wget -O /usr/local/bin/gnomeshell-extension-manage "https://raw.githubusercontent.com/robdyke/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage"
+chmod +x /usr/local/bin/gnomeshell-extension-manage
+gnomeshell-extension-manage --install --extension-id 1160 --system
+dconf update
