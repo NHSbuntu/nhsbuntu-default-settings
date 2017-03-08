@@ -6,6 +6,3 @@
 override_dh_install:
 	dh_install
 	dh_ubuntu_defaults
-
-override_dh_installgsettings:
-	dh_installgsettings --priority=20
