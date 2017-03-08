@@ -1,20 +1,50 @@
-nhsbuntu-default-settings (0.1.7) UNRELEASED; urgency=low
+nhsbuntu-default-settings (0.1.12) xenial; urgency=low
+
+  * Depends evolution-ews
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Tue, 7 Mar 2017 01:29:21 +0000
+
+nhsbuntu-default-settings (0.1.11) xenial; urgency=low
+
+  * Exclude gnomeshell-extension-manage
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 5 Mar 2017 01:29:21 +0000
+
+nhsbuntu-default-settings (0.1.10) xenial; urgency=low
+
+  * Include gnomeshell-extension-manage
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 5 Mar 2017 01:19:21 +0000
+
+nhsbuntu-default-settings (0.1.9) xenial; urgency=low
+
+  * Depends revised
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 5 Mar 2017 00:19:21 +0000
+
+nhsbuntu-default-settings (0.1.8) xenial; urgency=low
+
+  * Linking to PPA robdyke/nhsbuntu/plymouth-theme-nhsbuntu-gnome
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 5 Mar 2017 00:09:21 +0000
+
+nhsbuntu-default-settings (0.1.7) xenial; urgency=low
 
   * Set dconf 00-extensions
 
  -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 21:33:21 +0000
 
- nhsbuntu-default-settings (0.1.6) UNRELEASED; urgency=low
+nhsbuntu-default-settings (0.1.6) UNRELEASED; urgency=low
 
   * Forked gnomeshell-extension-manage
 
- -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 18:33:21 +0000
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 19:33:21 +0000
 
 nhsbuntu-default-settings (0.1.5) UNRELEASED; urgency=low
 
   * Added nhsbuntu-default-settings.gsettings-override
 
- -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 18:33:21 +0000
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 2 Mar 2017 18:30:21 +0000
 
 nhsbuntu-default-settings (0.1.4) UNRELEASED; urgency=low
 

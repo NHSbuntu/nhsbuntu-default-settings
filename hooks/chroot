@@ -13,3 +13,12 @@ wget -O /usr/local/bin/gnomeshell-extension-manage "https://raw.githubuserconten
 chmod +x /usr/local/bin/gnomeshell-extension-manage
 gnomeshell-extension-manage --install --extension-id 1160 --system
 dconf update
+#wget https://www.dropbox.com/s/essr40c79rngzct/plymouth-theme-nhsbuntu-gnome-text_0.1.1_all.deb
+#dpkg -i plymouth-theme-nhsbuntu-gnome-text_0.1.1_all.deb
+#rm plymouth-theme-nhsbuntu-gnome-text_0.1.1_all.deb
+#wget https://www.dropbox.com/s/jdj4zpewdqqyz36/plymouth-theme-nhsbuntu-gnome-logo_0.1.1_all.deb
+#dpkg -i plymouth-theme-nhsbuntu-gnome-logo_0.1.1_all.deb
+#rm plymouth-theme-nhsbuntu-gnome-logo_0.1.1_all.deb
+rm /usr/share/plymouth/ubuntu-gnome_logo.png
+cp /usr/share/plymouth/nhsbuntu-gnome_logo.png /usr/share/plymouth/ubuntu-gnome_logo.png
+update-initramfs -u
