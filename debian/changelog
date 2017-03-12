@@ -1,3 +1,17 @@
+nhsbuntu-default-settings (0.1.14) xenial; urgency=low
+
+  * Depends pidgin, pidgin-sipe
+  * NHSMail set in place of Evolution
+  * Removed update-initramfs from chroot
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 12 Mar 2017 21:10:21 +0000
+
+nhsbuntu-default-settings (0.1.13) xenial; urgency=low
+
+  * Depends evolution-ews
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 12 Mar 2017 21:00:21 +0000
+
 nhsbuntu-default-settings (0.1.12) xenial; urgency=low
 
   * Depends evolution-ews

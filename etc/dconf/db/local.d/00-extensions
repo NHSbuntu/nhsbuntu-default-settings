@@ -1,6 +1,6 @@
 [org/gnome/shell]
 enabled-extensions=['dash-to-panel@jderose9.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com']
-favorite-apps=[ 'firefox.desktop', 'evolution.desktop', 'libreoffice-writer.desktop', 'nautilus.desktop', 'yelp.desktop' ]
+favorite-apps=[ 'firefox.desktop', 'nhsmail.desktop', 'libreoffice-writer.desktop', 'nautilus.desktop', 'yelp.desktop' ]
 
 [org/gnome/shell/extensions/dash-to-panel]
 panel-position='TOP'

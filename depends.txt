@@ -17,3 +17,5 @@
 plymouth-theme-nhsbuntu-gnome-text
 plymouth-theme-nhsbuntu-gnome-logo
 evolution-ews
+pidgin
+pidgin-sipe

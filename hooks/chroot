@@ -7,7 +7,7 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-apt-get remove -y --purge transmission-common
+apt-get remove -y --purge --auto-remove transmission-common empathy
 apt-get remove -y --purge --auto-remove gnome-getting-started-docs
 wget -O /usr/local/bin/gnomeshell-extension-manage "https://raw.githubusercontent.com/robdyke/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage"
 chmod +x /usr/local/bin/gnomeshell-extension-manage
@@ -21,4 +21,6 @@ dconf update
 #rm plymouth-theme-nhsbuntu-gnome-logo_0.1.1_all.deb
 rm /usr/share/plymouth/ubuntu-gnome_logo.png
 cp /usr/share/plymouth/nhsbuntu-gnome_logo.png /usr/share/plymouth/ubuntu-gnome_logo.png
-update-initramfs -u
+rm /usr/share/applications/evolution.desktop
+
+#update-initramfs -u
