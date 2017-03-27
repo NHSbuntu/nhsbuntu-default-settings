@@ -8,3 +8,9 @@ show-appmenu=false
 panel-size=32
 show-activities-button=false
 show-show-apps-button=false
+
+[org/gnome/desktop/interface]
+gtk-im-module='gtk-im-context-simple'
+icon-theme='Windows-10-Icons-master'
+gtk-theme='Windows-10-master'
+toolkit-accessibility=false
