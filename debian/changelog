@@ -1,3 +1,56 @@
+nhsbuntu-default-settings (0.1.20) xenial; urgency=low
+
+  * Re-ordered chroot hooks
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Mon, 27 Mar 2017 01:32:21 +0000
+
+nhsbuntu-default-settings (0.1.19) xenial; urgency=low
+
+  * Use dconf 00-extensions
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Mon, 27 Mar 2017 01:22:21 +0000
+
+nhsbuntu-default-settings (0.1.18) xenial; urgency=low
+
+  * Version bump
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Mon, 27 Mar 2017 00:22:21 +0000
+
+nhsbuntu-default-settings (0.1.17) xenial; urgency=low
+
+  * Include gnome-shell-extension-manage
+  * Replace LibreOffice intro.png
+  * Install win10 Gnome theme
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Mon, 27 Mar 2017 00:02:21 +0000
+
+nhsbuntu-default-settings (0.1.16) xenial; urgency=low
+
+  * Ubiquity slides revised
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 26 Mar 2017 21:20:21 +0000
+
+nhsbuntu-default-settings (0.1.15) xenial; urgency=low
+
+  * Reduced size of background.jpg
+  * Clearer messages, speeling erorrs corrected
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 26 Mar 2017 21:10:21 +0000
+
+nhsbuntu-default-settings (0.1.14) xenial; urgency=low
+
+  * Depends pidgin, pidgin-sipe
+  * NHSMail set in place of Evolution
+  * Removed update-initramfs from chroot
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 12 Mar 2017 21:10:21 +0000
+
+nhsbuntu-default-settings (0.1.13) xenial; urgency=low
+
+  * Depends evolution-ews
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 12 Mar 2017 21:00:21 +0000
+
 nhsbuntu-default-settings (0.1.12) xenial; urgency=low
 
   * Depends evolution-ews
