@@ -16,3 +16,6 @@ NHSbuntu customizations packaged with ubuntu-defaults-template
 
 ### Libre Office
 * UbuntuBuzz post - [How to Change Libre Office splash screen](http://www.ubuntubuzz.com/2012/02/how-to-change-libreoffice-splash-screen.html)
+
+### Open Connect
+* Client for Cisco AnyConnect VPN. Provides support for NHS N3 SSL VPN with RSA 2FA - [OpenConnect](http://www.infradead.org/openconnect/)
