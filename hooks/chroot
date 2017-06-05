@@ -24,11 +24,13 @@ cp /usr/share/nhsbuntu/libreoffice/Flat_LO_and_NHSB_logo.png /usr/lib/libreoffic
 # Replace Ubiquity-slideshow index.html
 cp /usr/share/ubiquity-slideshow/slides/extra/en_GB/index.html /usr/share/ubiquity-slideshow/slides/index.html
 
-# Gnome WIndows 10 Theme and icons
+# Gnome Windows 10 Theme and icons
 cd /usr/share/nhsbuntu/win10-theme
 ./install.sh
 
 # Add Gnome dash-to-panel extension
 cp /usr/share/nhsbuntu/bin/gnome-shell-extension-manage /usr/local/bin/gnome-shell-extension-manage
 gnome-shell-extension-manage --install --extension-id 1160 --system
+
+# Update dconf
 dconf update

@@ -19,3 +19,5 @@ plymouth-theme-nhsbuntu-gnome-logo
 evolution-ews
 pidgin
 pidgin-sipe
+network-manager-openconnect-gnome
+openconnect
