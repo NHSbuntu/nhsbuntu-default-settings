@@ -7,9 +7,10 @@ set -e
 # before it is packed into a squashfs. This is where you can apply extra tweaks
 # to the live system.
 
-# Remove packages
+# Removing packages
 apt-get remove -y --purge --auto-remove transmission-common empathy
-apt-get remove -y --purge --auto-remove gnome-getting-started-docs
+apt-get remove -y --purge --auto-remove gnome-getting-started-docs gnome-mahjongg gnome-maps gnome-mines gnome-sudoku gnome-weather gnome-music gnome-video-effects gnome-photos
+apt-get remove -y --purge --auto-remove rhythmbox aisleriot cheese
 
 # Set NHSbuntu banner
 rm /usr/share/plymouth/ubuntu-gnome_logo.png
@@ -34,3 +35,8 @@ gnome-shell-extension-manage --install --extension-id 1160 --system
 
 # Update dconf
 dconf update
+
+# Remmina
+add-apt-repository -y ppa:remmina-ppa-team/remmina-next
+apt-get update
+apt-get install -y remmina remmina-plugin-rdp freerdp-x11
