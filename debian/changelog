@@ -4,7 +4,7 @@ nhsbuntu-default-settings (0.1.23) xenial; urgency=low
 
  -- Rob Dyke (robdykedotcom) <robdyke@gmail.com>  Sun, 18 Jun 2017 22:58:21 +0000
 
- nhsbuntu-default-settings (0.1.22) xenial; urgency=low
+nhsbuntu-default-settings (0.1.22) xenial; urgency=low
 
   * Added openconnect to support NHS N3 SSL VPN
   * Added Legal Notices to docs
