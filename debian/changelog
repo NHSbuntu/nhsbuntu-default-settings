@@ -1,8 +1,26 @@
+nhsbuntu-default-settings (0.1.26) xenial; urgency=low
+
+  * Version bump
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 22 Jun 2017 22:09:21 +0000
+
+nhsbuntu-default-settings (0.1.25) xenial; urgency=low
+
+  * Version bump
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 22 Jun 2017 22:07:21 +0000
+
+nhsbuntu-default-settings (0.1.24) xenial; urgency=low
+
+  * Version bump
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Thu, 22 Jun 2017 22:06:21 +0000
+
 nhsbuntu-default-settings (0.1.23) xenial; urgency=low
 
   * FIX - include cheese-common
 
- -- Rob Dyke (robdykedotcom) <robdyke@gmail.com>  Sun, 18 Jun 2017 22:58:21 +0000
+ -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 18 Jun 2017 22:58:21 +0000
 
 nhsbuntu-default-settings (0.1.22) xenial; urgency=low
 
