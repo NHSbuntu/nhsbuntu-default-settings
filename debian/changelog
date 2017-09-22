@@ -1,3 +1,9 @@
+nhsbuntu-default-settings (0.1.27) xenial; urgency=low
+
+  * Version bump
+
+ -- Rob Dyke <rob@neovahealth.co.uk>  Fri, 22 Sept 2017 20:09:21 +0000
+
 nhsbuntu-default-settings (0.1.26) xenial; urgency=low
 
   * Version bump
