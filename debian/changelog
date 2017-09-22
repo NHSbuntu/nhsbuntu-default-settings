@@ -2,7 +2,7 @@ nhsbuntu-default-settings (0.1.27) xenial; urgency=low
 
   * Version bump
 
- -- Rob Dyke <rob@neovahealth.co.uk>  Fri, 22 Sept 2017 20:09:21 +0000
+ -- Rob Dyke <rob@neovahealth.co.uk>  Fri, 22 Sep 2017 20:09:21 +0000
 
 nhsbuntu-default-settings (0.1.26) xenial; urgency=low
 
@@ -42,7 +42,7 @@ nhsbuntu-default-settings (0.1.21) xenial; urgency=low
 
  -- Rob Dyke <rob@neovahealth.co.uk>  Wed, 17 May 2017 22:00:21 +0000
 
- nhsbuntu-default-settings (0.1.20) xenial; urgency=low
+nhsbuntu-default-settings (0.1.20) xenial; urgency=low
 
   * Re-ordered chroot hooks
 
@@ -162,7 +162,7 @@ nhsbuntu-default-settings (0.1.2) UNRELEASED; urgency=low
 
  -- Rob Dyke <rob@neovahealth.co.uk>  Sun, 26 Feb 2017 01:33:21 +0000
 
- nhsbuntu-default-settings (0.1.1) UNRELEASED; urgency=low
+nhsbuntu-default-settings (0.1.1) UNRELEASED; urgency=low
 
   * Added nhsbuntu wallpaper.
   * Added nhsmail icon.
