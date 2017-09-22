@@ -13,21 +13,24 @@ apt-get remove -y --purge --auto-remove gnome-getting-started-docs gnome-mahjong
 apt-get remove -y --purge --auto-remove rhythmbox aisleriot cheese
 
 # Set NHSbuntu banner
-rm /usr/share/plymouth/ubuntu-gnome_logo.png
-cp /usr/share/plymouth/nhsbuntu-gnome_logo.png /usr/share/plymouth/ubuntu-gnome_logo.png
+# rm /usr/share/plymouth/ubuntu-gnome_logo.png
+cp /usr/share/nhsbuntu/logos/nhsb-plymouth-white-trans-logo.png /usr/share/nhsbuntu/logos/nhsb-plymouth-white-trans-logo.png.tmp
+mv /usr/share/nhsbuntu/logos/nhsb-plymouth-white-trans-logo.png.tmp /usr/share/plymouth/ubuntu-gnome_logo.png
 
 # Remove Evolution.desktop; provided by nhsmail.desktop
 rm /usr/share/applications/evolution.desktop
 
 # Replace LibreOffice startup image
-cp /usr/share/nhsbuntu/libreoffice/Flat_LO_and_NHSB_logo.png /usr/lib/libreoffice/program/intro.png
+cp /usr/lib/libreoffice/program/intro.png /usr/lib/libreoffice/program/intro.png.orig
+cp /usr/share/nhsbuntu/libreoffice/Flat_LO_and_NHSB_logo.png /usr/share/nhsbuntu/libreoffice/Flat_LO_and_NHSB_logo.png.tmp
+mv /usr/share/nhsbuntu/libreoffice/Flat_LO_and_NHSB_logo.png.tmp /usr/lib/libreoffice/program/intro.png
 
 # Replace Ubiquity-slideshow index.html
 cp /usr/share/ubiquity-slideshow/slides/extra/en_GB/index.html /usr/share/ubiquity-slideshow/slides/index.html
 
 # Gnome Windows 10 Theme and icons
-cd /usr/share/nhsbuntu/win10-theme
-./install.sh
+# cd /usr/share/nhsbuntu/win10-theme
+# ./install.sh
 
 # Add Gnome dash-to-panel extension
 cp /usr/share/nhsbuntu/bin/gnome-shell-extension-manage /usr/local/bin/gnome-shell-extension-manage
